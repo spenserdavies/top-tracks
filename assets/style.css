@@ -1,0 +1,59 @@
+body{
+    /* display: flex;
+    flex-direction: column; */
+    /* min-height: 75vh; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+hr{
+    background-color: white;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.font-scribble{
+    font-family: 'Permanent Marker', cursive;
+}
+.guardin-parallax{
+    background-image: url("../guardin.jpg");
+    height: 300px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ghw-parallax{
+    background-image: url("../ghw.jpg");
+    height: 300px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.peep-parallax{
+    background-image: url("../peep.jpeg");
+    height: 300px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.text-shadow-bl{
+    text-shadow: 1px 1px black;
+}
+
+.text-shadow-wh{
+    text-shadow: 1px 1px white;
+}
